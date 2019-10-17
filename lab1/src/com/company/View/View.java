@@ -3,8 +3,8 @@ package com.company.View;
 import com.company.Model.Question;
 import com.company.Model.Test;
 
-public interface View {
-    void ShowQuestion(Question question);
+import java.util.List;
 
-    void ShowTest(Test test);
+public interface View {
+    void ShowTests(List<Test> tests);
 }

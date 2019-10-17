@@ -3,15 +3,12 @@ package com.company.View;
 import com.company.Model.Question;
 import com.company.Model.Test;
 
+import java.util.List;
+
 public class ConsoleView implements View{
 
     @Override
-    public void ShowQuestion(Question question) {
-        System.out.println(question);
-    }
-
-    @Override
-    public void ShowTest(Test test) {
-        System.out.println(test);
+    public void ShowTests(List<Test> tests) {
+        System.out.println(tests);
     }
 }

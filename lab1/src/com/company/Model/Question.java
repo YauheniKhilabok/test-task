@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class Question implements Serializable {
-    private String rightAnswer;
-    private List<String> answers;
     private int points;
+    private List<String> answers;
+    private String rightAnswer;
 
     public String getRightAnswer() {
         return rightAnswer;
