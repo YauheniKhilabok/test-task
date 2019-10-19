@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Controller.Controller;
+import com.company.controller.Controller;
 
 public class Main {
 

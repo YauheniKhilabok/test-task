@@ -1,7 +1,6 @@
-package com.company.View;
+package com.company.view;
 
-import com.company.Model.Question;
-import com.company.Model.Test;
+import com.company.model.Test;
 
 import java.util.List;
 

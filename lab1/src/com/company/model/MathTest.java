@@ -1,4 +1,4 @@
-package com.company.Model;
+package com.company.model;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -32,6 +32,7 @@ public class MathTest extends Test implements Serializable {
     public String toString() {
         return "MathTest{" +
                 "levelOfDifficult=" + levelOfDifficult +
+                ", questions=" + super.getQuestions() +
                 '}';
     }
 }

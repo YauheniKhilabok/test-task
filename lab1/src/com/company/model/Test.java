@@ -1,10 +1,11 @@
-package com.company.Model;
+package com.company.model;
 
 import java.io.Serializable;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-public class Test implements Serializable {
+public class Test implements Serializable{
     private List<Question> questions;
 
     public List<Question> getQuestions() {
@@ -35,4 +36,5 @@ public class Test implements Serializable {
                 "questions=" + questions +
                 '}';
     }
+
 }
