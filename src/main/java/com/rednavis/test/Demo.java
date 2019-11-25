@@ -1,16 +1,19 @@
 package com.rednavis.test;
 
-import com.rednavis.test.impl.IntegerHelperImpl;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
 import java.util.List;
 
+/** The Demo class is responsible for demonstrating application performance */
 public class Demo {
 
-    public static void main(String[] args) {
+  private static final Logger logger = LogManager.getLogger(Demo.class);
 
-        IntegerHelper helper = new IntegerHelperImpl();
-        List<Integer> integers = Arrays.asList(10, 1, -3, 8, 9, 3, 2, 1, 11, 22, 13, 6, 9, 4, 2);
-        System.out.println(helper.getTopTenIntegers(integers));
-    }
+  public static void main(String[] args) {
+
+    com.rednavis.test.IntegerHelper helper = new IntegerHelper();
+    List<Integer> integers = List.of(10, 1, -3, 8, 9, 3, 2, 1, 11, 22, 13, 6, 9, 4, 2);
+    logger.info(helper.getTopTenIntegers(integers));
+  }
 }
