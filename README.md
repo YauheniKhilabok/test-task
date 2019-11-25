@@ -1,4 +1,4 @@
-``**Top 10 Integer Values Challenge**
+**Top 10 Integer Values Challenge**
 
 **Goal** 
 Goal is to write Java method that finds the top 10 (i.e. largest 10) integer values from 
